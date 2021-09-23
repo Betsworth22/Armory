@@ -1,8 +1,8 @@
 [
   {
     "type": 1,
-    "title": "DE Build Environment",
-    "name": "buildenvironment",
+    "title": "Detector Development Kit",
+    "name": "detector",
     "description": "Software Development Kit required to create new detection rules and autobots.",
     "logo": "https://raw.githubusercontent.com/Betsworth22/Armory/main/software/developmentkit/de-rule_sdk_final.png",
     "image": "linuxserver/airsonic:latest",
