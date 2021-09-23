@@ -63,5 +63,67 @@
         "label": "TZ"
       }
     ]
+  },
+    {
+    "type": 1,
+    "title": "Response Utility",
+    "name": "response",
+    "description": "Collection of cyber threat tools to automate and/or expedite response activities.",
+    "logo": "https://raw.githubusercontent.com/Betsworth22/Armory/main/software/response/response-utils_final.png",
+    "image": "authelia/authelia:latest",
+    "note": "Requires a configuration.yml file in order to work. Documentation is Available <a href='https://docs.authelia.com/deployment/deployment-ha'>here</a>.",
+    "categories": [
+      "Other",
+      "Tools",
+      "Authentication"
+    ],
+    "platform": "linux",
+    "restart_policy": "unless-stopped",
+    "ports": [
+      "9091:9091/tcp"
+    ],
+    "volumes": [
+      {
+        "container": "/etc/authelia/",
+        "bind": "/portainer/Files/AppData/Config/Authelia"
+      }
+    ],
+    "env": [
+      {
+        "name": "TZ",
+        "label": "TZ"
+      }
+    ]
+  },
+    {
+    "type": 1,
+    "title": "Chain Reactor",
+    "name": "reactor",
+    "description": "Chain Reactor is an open-source tool for testing detection and response coverage on Linux machines. The tool generates executables that simulate sequences of actions like process creation and network connection. Chain Reactor assumes no prior engineering experience; the tool consumes JSON, so customizing its behavior is as simple as editing a file.",
+    "logo": "https://raw.githubusercontent.com/Betsworth22/Armory/main/software/reactor/chain-reactor_final.png",
+    "image": "authelia/authelia:latest",
+    "note": "Requires a configuration.yml file in order to work. Documentation is Available <a href='https://docs.authelia.com/deployment/deployment-ha'>here</a>.",
+    "categories": [
+      "Other",
+      "Tools",
+      "Authentication"
+    ],
+    "platform": "linux",
+    "restart_policy": "unless-stopped",
+    "ports": [
+      "9091:9091/tcp"
+    ],
+    "volumes": [
+      {
+        "container": "/etc/authelia/",
+        "bind": "/portainer/Files/AppData/Config/Authelia"
+      }
+    ],
+    "env": [
+      {
+        "name": "TZ",
+        "label": "TZ"
+      }
+    ]
   }
 ]
