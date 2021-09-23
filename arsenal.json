@@ -30,7 +30,7 @@
         "name": "PGID",
         "label": "PGID",
         "default": "100"
-      },
+      }
     ]
   },
   {
