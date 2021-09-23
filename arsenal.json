@@ -38,7 +38,7 @@
     "title": "Surveyor",
     "name": "surveyor",
     "description": "Surveyor is a Python utility that queries Endpoint Detection and Response (EDR) products and summarizes the results. Security and IT teams can use Surveyor to baseline their environments and identify abnormal activity.",
-    "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/authelia.png",
+    "logo": "https://raw.githubusercontent.com/Betsworth22/Armory/main/software/surveyor/surveyor_final.png",
     "image": "authelia/authelia:latest",
     "note": "Requires a configuration.yml file in order to work. Documentation is Available <a href='https://docs.authelia.com/deployment/deployment-ha'>here</a>.",
     "categories": [
