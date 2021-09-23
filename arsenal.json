@@ -3,7 +3,7 @@
     "type": 1,
     "title": "DE Build Environment",
     "name": "buildenvironment",
-    "description": "Software Development Kit required to develop/update new detection rules and autobots",
+    "description": "Software Development Kit required to create new detection rules and autobots.",
     "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/airsonic-logo.png",
     "image": "linuxserver/airsonic:latest",
     "categories": [
